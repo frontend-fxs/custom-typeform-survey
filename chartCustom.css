@@ -1,0 +1,28 @@
+.tf-v1-popover {
+  pointer-events: none;
+}
+.tf-v1-popover .tf-v1-popover-button,
+.tf-v1-popover .tf-v1-popover-tooltip {
+  pointer-events: all;
+}
+.tf-v1-popover.open {
+  pointer-events: all;
+  z-index: 9999999;
+  bottom: 176px;
+}
+.tf-v1-popover .tf-v1-popover-tooltip {
+  bottom: 125px;
+  right: 80px;
+}
+.tf-v1-popover .tf-v1-popover-button {
+  bottom: 120px;
+  right: 16px;
+}
+@media (min-width: 768px) {
+  .tf-v1-popover.open {
+    bottom: 180px;
+  }
+}
+.tf-v1-popover-close.tf-v1-close-icon {
+  display: none;
+}
