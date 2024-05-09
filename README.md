@@ -9,6 +9,7 @@
 4. Insert a css widget into the sitefinity page with the custom css for the corresponding survey.
 
 **The order of the widgets is important. First we have to insert the oficial libraries (javascript and css) and later the custom javascript and CSS**
+
 **Also important that the javascript widgets (official library and custom javascript) have to be droped at the end of the body**
 
 ### Custom Javascript explanation
