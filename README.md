@@ -12,7 +12,8 @@
 
 ### Custom Javascript explanation
 
-```const global = {
+```
+const global = {
     formId: 'xiCUyUr0',
     storageKey: 'survey:rates-chart',
     surveyIsSubmitted: 'survey-is-submitted',
@@ -54,4 +55,5 @@ const surveyLaunch = () => {
 
 window.onload = () => {
     surveyLaunch()
-}```
+}
+```
